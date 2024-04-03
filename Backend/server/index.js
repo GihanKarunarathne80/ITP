@@ -56,5 +56,5 @@ app.post("/createEmployee", (req,res) => {
 })
 
 app.listen(3001, () => {
-    console.log("Server is Running")
+    console.log("Server is Running in port 3001")
 })
