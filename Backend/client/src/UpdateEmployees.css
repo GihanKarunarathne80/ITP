@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:150%;
+    
+  }
+  
+  .form-container {
+    width: 80%; /* Increase the form container width to 80% of the container */
+    max-width: 500px;
+    background-color: rgba(219, 217, 225, 0.847);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left:460px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .btn-success {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #9b3b4b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #656060; /* Darker shade of blue on hover */
+}
